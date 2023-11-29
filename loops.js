@@ -1,26 +1,19 @@
 //while and do while loop
-let i = 0;
+const miles = ['0','10', '20', '30', '40', '50', '60', '70', '80', '90', '100'];
 
-while (i <= 10) {
-  console.log(i);
-  i++;
-}
+let speed = 0;
 
-const colours = ['red', 'blue', 'green', 'orange', 'purple'];
-
-
-let colour = 0;
-
-while (colour < colours.length) {
-  console.log(`${colours[colour]}`);
-  colour++;
+while (speed <= 10) {
+  console.log(`the speed of the car is ${miles[speed]}mph`)
+  speed++;
 }
 
 
+let a = 1;
 
-let w = 0;
+let b = 10;
 
 do {
-  console.log(`the number is ${w}`);
-  w++;
-} while (i <= 10);
+  console.log(`the number is ${a}`)
+  a++;
+} while (a <= b);
